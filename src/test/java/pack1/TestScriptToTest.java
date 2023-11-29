@@ -10,6 +10,7 @@ public class TestScriptToTest
 	public void ts1()
 	{
 		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
 		System.out.println("testscript1 execute");
 		
 	}
