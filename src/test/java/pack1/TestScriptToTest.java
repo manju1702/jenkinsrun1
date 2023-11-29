@@ -1,5 +1,7 @@
 package pack1;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestScriptToTest 
@@ -7,6 +9,7 @@ public class TestScriptToTest
 	@Test(groups="smoke")
 	public void ts1()
 	{
+		WebDriver driver = new ChromeDriver();
 		System.out.println("testscript1 execute");
 		
 	}
