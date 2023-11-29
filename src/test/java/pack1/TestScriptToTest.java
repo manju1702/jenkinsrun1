@@ -20,6 +20,10 @@ public class TestScriptToTest
 	{
 	System.out.println("testscript3 execute");	
 	}
+	public void ts4()
+	{
+		System.out.println("testscript4 execute");
+	}
 
 //	<dependency>
 //	<groupId>Automation</groupId>
