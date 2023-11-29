@@ -15,7 +15,7 @@ public class TestScriptToTest
 	{
 		System.out.println("testscript2 execute");
 	}
-	@Test
+	@Test(groups="integration")
 	public void ts3()
 	{
 	System.out.println("testscript3 execute");	
