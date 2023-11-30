@@ -24,6 +24,7 @@ public class Sample2
 			System.out.println("hii sarfraz");
 			System.out.println("hii gunjan");
 			System.out.println(" Byee arpan");
+			System.out.println("Hi");
 		}
 		else if(BROWSER.equalsIgnoreCase("firefox"))
 		{
