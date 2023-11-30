@@ -23,7 +23,7 @@ public class Sample2
 			driver.get(URL);
 			System.out.println("hii sarfraz");
 			System.out.println("hii gunjan");
-			System.out.println("hii arpan");
+			System.out.println("Byee arpan");
 		}
 		else if(BROWSER.equalsIgnoreCase("firefox"))
 		{
