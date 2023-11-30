@@ -23,6 +23,11 @@ public WebDriver driver;
 		{
 			
 			driver = new ChromeDriver();
+
+			driver.get(URL);
+			System.out.println("hii sarfraz");
+			System.out.println("hii gunjan");
+			System.out.println("hii arpan");
 		}
 		else if(BROWSER.equalsIgnoreCase("firefox"))
 		{
@@ -36,11 +41,8 @@ public WebDriver driver;
 			
 			driver = new FirefoxDriver();
 			
-		
-		driver.get(URL);
-		System.out.println("hii sarfraz");
-		System.out.println("hii gunjan");
-		System.out.println("hii arpan");
+
+
 	}
 
 }
